@@ -3,7 +3,7 @@ bgb = C:\Users\Robin\Downloads\bgb\bgb.exe
 
 
 compile:
-	mkdir build #
+	mkdir -p build #
 	$(lcc) -o build/flappy.gb src/main.c src/tiles.c src/welcome_bkg.c src/numbers.c src/sound.c
 
 run: compile
